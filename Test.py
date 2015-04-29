@@ -4,12 +4,28 @@ __author__ = 'jylee3'
 tuple = (4, 5)
 array = [1, 2]
 map = {
-    'name': "이준영"
-    '직책' : "사원"
+    'name': 'lee',
+    'age' : '11'
 }
-x, y = truple
+x, y = tuple
 
 print "start out"
-print p
+print tuple
 print x
 print y
+print dict
+
+with open('sample', 'rt') as f:
+    data = f.read()
+    print data
+
+if False:
+    print 'Hello 1'
+print 'Hello 2'
+
+sum = 0
+for i in range(1, 11):
+    sum = sum + i
+
+print(sum)
+
